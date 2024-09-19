@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { sidebarLinks } from "@/constants/constants";
+import { sidebarLinks } from "@/constants/index";
 import { usePathname } from "next/navigation";
 
 const LeftSidebar = () => {

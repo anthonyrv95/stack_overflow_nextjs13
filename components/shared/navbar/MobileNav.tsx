@@ -9,7 +9,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { sidebarLinks } from "@/constants/constants";
+import { sidebarLinks } from "@/constants/index";
 import { usePathname } from "next/navigation";
 /* import { Button } from "@/components/ui/button"; */
 
@@ -79,6 +79,7 @@ const MobileNav = () => {
           <SheetClose asChild>
             <NavContent />
           </SheetClose>
+          <ProfileNavigator mobileMenu></ProfileNavigator>
 
           {/* <div className="flex flex-col gap-3">
             <SheetClose asChild>
